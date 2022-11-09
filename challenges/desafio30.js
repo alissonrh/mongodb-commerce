@@ -8,7 +8,6 @@ db.produtos.updateOne(
 );
 
 db.produtos.find({
-  curtidas: { $exists: true },
 }, {
   _id: 0,
   nome: 1,
